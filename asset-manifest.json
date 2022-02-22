@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Spax/static/css/main.d0f88166.chunk.css",
-    "main.js": "/Spax/static/js/main.0e992007.chunk.js",
-    "main.js.map": "/Spax/static/js/main.0e992007.chunk.js.map",
+    "main.js": "/Spax/static/js/main.88c9701f.chunk.js",
+    "main.js.map": "/Spax/static/js/main.88c9701f.chunk.js.map",
     "runtime-main.js": "/Spax/static/js/runtime-main.112df215.js",
     "runtime-main.js.map": "/Spax/static/js/runtime-main.112df215.js.map",
     "static/js/2.229291db.chunk.js": "/Spax/static/js/2.229291db.chunk.js",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.112df215.js",
     "static/js/2.229291db.chunk.js",
     "static/css/main.d0f88166.chunk.css",
-    "static/js/main.0e992007.chunk.js"
+    "static/js/main.88c9701f.chunk.js"
   ]
 }
