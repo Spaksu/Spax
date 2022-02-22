@@ -35,7 +35,7 @@ export const StyledRoundButton = styled.button`
   background-color: var(--primary);
   padding: 10px;
   font-weight: bold;
-  font-size: 15px;
+  font-size: 20px;
   color: var(--primary-text);
   width: 30px;
   height: 30px;
@@ -66,9 +66,9 @@ export const ResponsiveWrapper = styled.div`
 `;
 
 export const StyledLogo = styled.img`
-  width: 200px;
+  width: 500px;
   @media (min-width: 767px) {
-    width: 300px;
+    width: 600px;
   }
   transition: width 0.5s;
   transition: height 0.5s;
@@ -76,7 +76,7 @@ export const StyledLogo = styled.img`
 
 export const StyledImg = styled.img`
   box-shadow: 0px 5px 11px 2px rgba(0, 0, 0, 0.7);
-  border: 4px dashed var(--secondary);
+  border: 3px solid #FFFFFF;
   background-color: var(--accent);
   border-radius: 100%;
   width: 200px;
@@ -84,7 +84,7 @@ export const StyledImg = styled.img`
     width: 250px;
   }
   @media (min-width: 1000px) {
-    width: 300px;
+    width: 400px;
   }
   transition: width 0.5s;
 `;
@@ -162,8 +162,8 @@ function App() {
 
   const incrementMintAmount = () => {
     let newMintAmount = mintAmount + 1;
-    if (newMintAmount > 10) {
-      newMintAmount = 10;
+    if (newMintAmount > 20) {
+      newMintAmount = 20;
     }
     setMintAmount(newMintAmount);
   };
@@ -203,7 +203,7 @@ function App() {
       >
         <StyledLogo alt={"logo"} src={"/Spax/config/images/logo.png"} />
         <s.SpacerSmall />
-        <ResponsiveWrapper flex={1} style={{ padding: 24 }} test>
+        <ResponsiveWrapper flex={1} style={{ padding: 44 }} test>
           <s.Container flex={1} jc={"center"} ai={"center"}>
             <StyledImg alt={"example"} src={"/Spax/config/images/example.gif"} />
           </s.Container>
@@ -214,9 +214,9 @@ function App() {
             ai={"center"}
             style={{
               backgroundColor: "var(--accent)",
-              padding: 24,
-              borderRadius: 24,
-              border: "4px dashed var(--secondary)",
+              padding: 14,
+              borderRadius: 100,
+              border: "10px solid #EF5350",
               boxShadow: "0px 5px 11px 2px rgba(0,0,0,0.7)",
             }}
           >
