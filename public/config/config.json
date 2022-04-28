@@ -9,9 +9,9 @@
   "NFT_NAME": "Spax",
   "SYMBOL": "SPAX",
   "MAX_SUPPLY": 10000,
-  "WEI_COST": 100000000000000,
-  "DISPLAY_COST": 0.0001,
-  "GAS_LIMIT": 30000,
+  "WEI_COST": 5000000000000000,
+  "DISPLAY_COST": 0.005,
+  "GAS_LIMIT": 50000,
   "MARKETPLACE": "Opeansea",
   "MARKETPLACE_LINK": "https://opensea.io/collection/spax-official",
   "SHOW_BACKGROUND": false
